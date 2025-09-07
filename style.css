@@ -1,0 +1,12 @@
+body { font-family: sans-serif; margin: 0; }
+header { background: #333; color: white; padding: 1rem; text-align: center; }
+nav { display: flex; justify-content: center; background: #444; }
+nav a { color: white; padding: 14px 20px; text-decoration: none; }
+.container { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; }
+input, textarea, button { width: 100%; padding: 12px; margin: 8px 0; box-sizing: border-box; }
+button { background: #007bff; color: white; border: none; cursor: pointer; }
+.check-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #eee; }
+.check-item button { width: 80px; margin-left: 5px; background: #ccc; }
+.selected-pass { background: green !important; }
+.selected-fail { background: red !important; }
+.button { display: inline-block; background: #007bff; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; }
